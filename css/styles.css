@@ -3,9 +3,9 @@ body {
     background-color: #FFFFFF;
     color: #434455;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -21,8 +21,9 @@ ul {
     background-color: #4D5AE5;
     color:#ffffff;
     cursor: pointer;
-    font-weight: medium;
+    font-weight: 500;
     text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .slogan-button:hover, 
@@ -36,7 +37,7 @@ h1 {
     color: #ffffff;
     font-weight: Bold;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
 }
@@ -44,32 +45,40 @@ h1 {
 h2 {
     font-weight: Bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     line-height: 1.11;
+    color: #2e2f42;
     text-align: center;
 }
 
 h3 {
-    font-weight: Bold;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
+    color: #2e2f42;
 }
 
-.logo-web {
+.logo {
+letter-spacing: 0.03em;
+
+}
+.header-logo{
 font-family: "Raleway", sans-serif;
 font-optical-sizing: auto;
 font-weight: 700;
 font-style: normal;
 font-size: 18px;
 color: #4D5AE5;
-text-decoration: none;
+text-decoration: none;  
 line-height: 1.17;
-letter-spacing: 3%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
-.header-logo-studio {
+.header-studio {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -78,32 +87,55 @@ letter-spacing: 3%;
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
-.footer-logo-studio {
+.footer-logo {
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    color: #f4f4fd;
-    text-decoration: none;
-    line-height: 1.17;
-    letter-spacing: 3%;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        color: #4D5AE5;
+        text-decoration: none;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
-
+.footer-studio {
+    color: #f4f4fd;
+}
 footer {
     background-color: #2E2F42;
-    text-align: left;
-    color:#F4F4FD;
+
 }
 
-.link {
-    color: #434455;
-    text-decoration: none;
+.footer-text {
+    color: #F4F4FD;
 }
+.link {
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link {
+color: #434455
+}
+   
+
 .link:hover,
 .link:focus {
     color: #404BBF;
+}
+.contacts {
+    font-style: normal;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-member {
+    background-color: #FFFFFF;
 }
