@@ -18,10 +18,13 @@ ul {
 }
 
 .slogan-button {
+    font-family: inherit;
     background-color: #4D5AE5;
     color:#ffffff;
     cursor: pointer;
     font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
     text-align: center;
     letter-spacing: 0.04em;
 }
@@ -105,7 +108,7 @@ text-transform: uppercase;
 .footer-studio {
     color: #f4f4fd;
 }
-footer {
+.footer-content {
     background-color: #2E2F42;
 
 }
